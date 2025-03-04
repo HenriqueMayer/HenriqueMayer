@@ -1,4 +1,4 @@
-# Hello! 👋 I'm Henrique Mayer
+# Hello there! 👋 I'm Henrique Mayer
 
 Welcome to my GitHub profile! I'm a student passionate about Data Science and Artificial Intelligence, dedicated to building innovative and impactful solutions.
 
