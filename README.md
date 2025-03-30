@@ -7,12 +7,6 @@ Welcome to my GitHub profile! I'm a student passionate about Data Science and Ar
 * **Working at ONEAI**, applying knowledge to challenging projects.
 * Building cool projects with **Python, Machine Learning, and AI**.
 
-## 🛠️ Technologies & Tools
-
-* ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python)
-* ![Java](https://img.shields.io/badge/-Java-333?style=flat&logo=java)
-* ![Power BI](https://img.shields.io/badge/-Power%20BI-333?style=flat&logo=powerbi)
-* ![Figma](https://img.shields.io/badge/-Figma-333?style=flat&logo=figma)
 
 ## 🌐 Connect with Me
 
