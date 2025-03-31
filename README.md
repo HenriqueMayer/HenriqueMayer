@@ -14,7 +14,7 @@ Welcome to my GitHub profile! I'm a student passionate about Data Science and Ar
 
 ## 🌐 Connect with Me
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/henriquermayer" target="_blank" rel="noopener noreferrer">
     <img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" alt="GitHub" />
   </a>
