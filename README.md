@@ -24,7 +24,7 @@ Welcome to my GitHub profile! I'm a student passionate about Data Science and Ar
   <a href="https://www.instagram.com/henriquermayer/" target="_blank" rel="noopener noreferrer">
     <img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" alt="Instagram" />
   </a>
-  <a href="https://www.chess.com/member/Henrique_Mayer" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.chess.com/member/mosrariquen" target="_blank" rel="noopener noreferrer">
     <img height="30" src="https://cdn.brandfetch.io/id3xkMkAED/w/400/h/400/theme/dark/icon.png?c=1dxbfHSJFAPEGdCLU4o5B" alt="Chess.com" />
   </a>
 </p>
