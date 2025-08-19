@@ -15,10 +15,10 @@ Welcome to my GitHub profile! I'm a student passionate about Data Science and Ar
 ## 🌐 Connect with Me
 
 <p align="left">
-  <a href="https://github.com/henriquermayer" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/HenriqueMayer" target="_blank" rel="noopener noreferrer">
     <img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" alt="GitHub" />
   </a>
-  <a href="https://www.linkedin.com/in/henrique-mayer-7897911b2/" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.linkedin.com/in/henrique-ramos-mayer-7897911b2/" target="_blank" rel="noopener noreferrer">
     <img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" alt="LinkedIn" />
   </a>
   <a href="https://www.instagram.com/henriquermayer/" target="_blank" rel="noopener noreferrer">
