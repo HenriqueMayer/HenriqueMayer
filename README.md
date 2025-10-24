@@ -7,7 +7,7 @@ Welcome to my GitHub profile! I'm a student passionate about Data Science and Ar
 ## 🚀 About Me
 
 - **Data Science and Artificial Intelligence student** at **PUCRS**.
-- **Working at OneAI team (MLE)**, applying knowledge to challenging projects.
+- **Working at OneAI team (MLE)**.
 - Building cool projects with **Python, Machine Learning, and AI**.
 
 ---
