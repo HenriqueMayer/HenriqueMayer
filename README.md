@@ -1,9 +1,13 @@
-<a href="https://henriquemayer.com/en/">
+<a href="https://henriquemayer.com/en/#gh-light-mode-only">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile-dark-mobile.svg">
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/profile-light-mobile.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
+    <source media="(max-width: 600px)" srcset="assets/profile-light-mobile.svg">
     <img src="assets/profile-light.svg" width="1200" alt="Henrique Mayer — AI Engineer, Data Science and Consulting. View my portfolio.">
+  </picture>
+</a>
+<a href="https://henriquemayer.com/en/#gh-dark-mode-only">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/profile-dark-mobile.svg">
+    <img src="assets/profile-dark.svg" width="1200" alt="Henrique Mayer — AI Engineer, Data Science and Consulting. View my portfolio.">
   </picture>
 </a>
 
