@@ -11,8 +11,6 @@
   </picture>
 </a>
 
-**Data Science & AI student at PUCRS**.
-
 ---
 
 <p>
@@ -21,7 +19,9 @@
   <a href="https://www.chess.com/member/hrmayer"><img src="assets/link-chess.svg" height="38" alt="Play chess with me"></a>
 </p>
 
+.
 ---
+
 
 <p>
   <img src="assets/tech-python.svg" height="38" alt="Python">
