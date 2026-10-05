@@ -11,7 +11,7 @@
   </picture>
 </a>
 
-I'm an **AI Engineer at Galapos (XP Inc.)** and a **Data Science & AI student at PUCRS**. I build applications, AI agents and data workflows — mostly with Python and a bit of stubbornness.
+**Data Science & AI student at PUCRS**.
 
 ---
 
