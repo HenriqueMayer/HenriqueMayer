@@ -11,8 +11,6 @@
   </picture>
 </a>
 
----
-
 <p>
   <a href="https://henriquemayer.com/en/"><img src="assets/link-portfolio.svg" height="38" alt="View my portfolio"></a>
   <a href="https://www.linkedin.com/in/henrique-ramos-mayer-7897911b2/"><img src="assets/link-linkedin.svg" height="38" alt="Connect on LinkedIn"></a>
