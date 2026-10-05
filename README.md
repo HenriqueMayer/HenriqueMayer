@@ -11,23 +11,15 @@
   </picture>
 </a>
 
+---
+
 <p>
   <a href="https://henriquemayer.com/en/"><img src="assets/link-portfolio.svg" height="38" alt="View my portfolio"></a>
   <a href="https://www.linkedin.com/in/henrique-ramos-mayer-7897911b2/"><img src="assets/link-linkedin.svg" height="38" alt="Connect on LinkedIn"></a>
   <a href="https://www.chess.com/member/hrmayer"><img src="assets/link-chess.svg" height="38" alt="Play chess with me"></a>
 </p>
 
-## 👋 About me
-
-I'm an **AI Engineer at Galapos (XP Inc.)** and a **Data Science & AI student at PUCRS**, based in Porto Alegre, Brazil.
-
-I build applications, work with data, and connect AI models and agents to business workflows. Previously, I worked on AI/ML platforms at **ADP Brazil Labs**, focusing on inference APIs, automation and MLOps.
-
-I like building things that actually work — mostly with Python and a bit of stubbornness.
-
-## 🛠️ Tech stack
-
-**Software & languages**
+---
 
 <p>
   <img src="assets/tech-python.svg" height="38" alt="Python">
@@ -39,8 +31,6 @@ I like building things that actually work — mostly with Python and a bit of st
   <img src="assets/tech-tailwind.svg" height="38" alt="Tailwind CSS">
 </p>
 
-**AI & data**
-
 <p>
   <img src="assets/tech-agents.svg" height="38" alt="AI agents">
   <img src="assets/tech-mlops.svg" height="38" alt="MLOps">
@@ -49,16 +39,11 @@ I like building things that actually work — mostly with Python and a bit of st
   <img src="assets/tech-mlflow.svg" height="38" alt="MLflow">
 </p>
 
-**Cloud & platforms**
-
 <p>
   <img src="assets/tech-aws.svg" height="38" alt="AWS">
   <img src="assets/tech-docker.svg" height="38" alt="Docker">
   <img src="assets/tech-kubernetes.svg" height="38" alt="Kubernetes">
 </p>
-
-<details>
-<summary><strong>⚙️ Delivery & observability</strong></summary>
 
 <p>
   <img src="assets/tech-git.svg" height="38" alt="Git">
@@ -71,9 +56,7 @@ I like building things that actually work — mostly with Python and a bit of st
   <img src="assets/tech-markdown.svg" height="38" alt="Markdown">
 </p>
 
-</details>
-
-## 🧩 Selected work
+---
 
 <a href="https://github.com/HenriqueMayer/TuxedoFinance#gh-light-mode-only">
   <picture>
@@ -91,7 +74,3 @@ I like building things that actually work — mostly with Python and a bit of st
 A local-first personal finance application for transactions, banking, investments, reports and planning. Built with Django, with English and Brazilian Portuguese interfaces and Docker deployment.
 
 [**Explore the interface ↗**](https://henriquemayer.github.io/TuxedoFinance/) &nbsp; · &nbsp; [**More on my portfolio ↗**](https://henriquemayer.com/en/projects/)
-
----
-
-When I'm not working, I'm probably losing at [chess](https://www.chess.com/member/hrmayer) 😄
