@@ -1,24 +1,64 @@
 <a href="https://henriquemayer.com/en/#gh-light-mode-only">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile-light-mobile.svg">
-    <img src="assets/profile-light.svg" width="1200" alt="Henrique Mayer — AI Engineer, Data Science and Consulting. View my portfolio.">
+    <source media="(max-width: 600px)" srcset="assets/cover-light-mobile.svg">
+    <img src="assets/cover-light.svg" width="1200" alt="Henrique Mayer — Engineering useful AI. AI Engineer at Galapos (XP Inc.). Data Science and AI student at PUCRS.">
   </picture>
 </a>
 <a href="https://henriquemayer.com/en/#gh-dark-mode-only">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile-dark-mobile.svg">
-    <img src="assets/profile-dark.svg" width="1200" alt="Henrique Mayer — AI Engineer, Data Science and Consulting. View my portfolio.">
+    <source media="(max-width: 600px)" srcset="assets/cover-dark-mobile.svg">
+    <img src="assets/cover-dark.svg" width="1200" alt="Henrique Mayer — Engineering useful AI. AI Engineer at Galapos (XP Inc.). Data Science and AI student at PUCRS.">
   </picture>
 </a>
 
-<p>
-  <a href="https://henriquemayer.com/en/"><img src="assets/link-portfolio.svg" height="38" alt="View my portfolio"></a>
-  <a href="https://www.linkedin.com/in/henrique-ramos-mayer-7897911b2/"><img src="assets/link-linkedin.svg" height="38" alt="Connect on LinkedIn"></a>
-  <a href="https://www.chess.com/member/hrmayer"><img src="assets/link-chess.svg" height="38" alt="Play chess with me"></a>
-</p>
+I build **AI agents, data workflows and software** that fit into how teams actually work. Currently at **Galapos (XP Inc.)**, studying **Data Science & AI at PUCRS**.
 
 <p>
-  <a href="https://github.com/HenriqueMayer?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&amp;logo=github&amp;logoColor=F0EEE9&amp;labelColor=19191C&amp;url=https%3A%2F%2Fapi.github.com%2Fusers%2FHenriqueMayer&amp;query=%24.public_repos&amp;label=Public+repos&amp;color=7FBFA9" height="28" alt="Public GitHub repositories"></a>
-  <a href="https://github.com/HenriqueMayer?tab=repositories"><img src="https://img.shields.io/github/stars/HenriqueMayer?style=for-the-badge&amp;logo=github&amp;logoColor=F0EEE9&amp;labelColor=19191C&amp;label=Stars&amp;color=CFAA80&amp;affiliations=OWNER" height="28" alt="Stars on my GitHub repositories"></a>
-  <a href="https://github.com/HenriqueMayer?tab=followers"><img src="https://img.shields.io/github/followers/HenriqueMayer?style=for-the-badge&amp;logo=github&amp;logoColor=F0EEE9&amp;labelColor=19191C&amp;label=Followers&amp;color=91B9A7" height="28" alt="GitHub followers"></a>
+  <a href="https://henriquemayer.com/en/"><img src="assets/link-portfolio.svg" height="38" alt="Explore my portfolio"></a>
+  <a href="https://www.linkedin.com/in/henrique-ramos-mayer-7897911b2/"><img src="assets/link-linkedin.svg" height="38" alt="Connect on LinkedIn"></a>
 </p>
+
+<a href="https://henriquemayer.com/en/services/#gh-light-mode-only">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/stack-light-mobile.svg">
+    <img src="assets/stack-light.svg" width="1200" alt="Build with Python, Django, SQL and Go. Model with AI agents, Databricks and MLflow. Ship with AWS, Docker and Kubernetes.">
+  </picture>
+</a>
+<a href="https://henriquemayer.com/en/services/#gh-dark-mode-only">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/stack-dark-mobile.svg">
+    <img src="assets/stack-dark.svg" width="1200" alt="Build with Python, Django, SQL and Go. Model with AI agents, Databricks and MLflow. Ship with AWS, Docker and Kubernetes.">
+  </picture>
+</a>
+
+Built in public: [**TuxedoFinance ↗**](https://github.com/HenriqueMayer/TuxedoFinance) — local-first personal finance, built with Django and HTMX.
+
+<a href="https://github.com/HenriqueMayer#gh-light-mode-only">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/github-light-mobile.svg">
+    <img src="assets/github-light.svg" width="1200" alt="GitHub activity — visible contributions over the last 365 days, active days, public repositories, contribution calendar and public code by language.">
+  </picture>
+</a>
+<a href="https://github.com/HenriqueMayer#gh-dark-mode-only">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/github-dark-mobile.svg">
+    <img src="assets/github-dark.svg" width="1200" alt="GitHub activity — visible contributions over the last 365 days, active days, public repositories, contribution calendar and public code by language.">
+  </picture>
+</a>
+
+<sub><a href="docs/profile-data.md">About these numbers</a></sub>
+
+<a href="https://www.chess.com/member/hrmayer#gh-light-mode-only">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/chess-light-mobile.svg">
+    <img src="assets/chess-light.svg" width="1200" alt="Off the keyboard: one more move. Chess.com hrmayer, Puzzle Rush personal best, and an illustrative animated knight. Play a game with me.">
+  </picture>
+</a>
+<a href="https://www.chess.com/member/hrmayer#gh-dark-mode-only">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/chess-dark-mobile.svg">
+    <img src="assets/chess-dark.svg" width="1200" alt="Off the keyboard: one more move. Chess.com hrmayer, Puzzle Rush personal best, and an illustrative animated knight. Play a game with me.">
+  </picture>
+</a>
+
+**Curious about the work behind the graphs?** [Explore my portfolio ↗](https://henriquemayer.com/en/)
