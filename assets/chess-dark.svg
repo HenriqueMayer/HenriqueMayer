@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title description">
+<title id="title">Henrique Mayer / Off the keyboard</title><desc id="description">Henrique Mayer plays chess as hrmayer. Puzzle Rush personal best: 30, fetched on 2026-10-06 UTC. The animated knight follows legal L-shaped moves on an illustrative board; this is not a live game.</desc>
+<style>text{font-family:Inter,Arial,sans-serif}.shine{animation:shine 8s ease-in-out infinite}.knight{animation:knight 12s ease-in-out infinite}@keyframes shine{0%,100%{opacity:.25}50%{opacity:.8}}@keyframes knight{0%,16%,100%{transform:translate(0,0)}25%,41%{transform:translate(2px,-1px)}50%,66%{transform:translate(1px,-3px)}75%,91%{transform:translate(-1px,-2px)}}@media(prefers-reduced-motion:reduce){.shine,.knight{animation:none}}</style>
+<rect x="1" y="1" width="1198" height="238" rx="24" fill="#111113" stroke="#303033"/>
+<text x="48" y="45" font-size="19" font-weight="400" fill="#AAA9A4" text-anchor="start" letter-spacing="2">02 / OFF THE KEYBOARD</text>
+<text x="48" y="103" font-size="42" font-weight="500" fill="#F0EEE9" text-anchor="start">One more move.</text>
+<text x="48" y="139" font-size="21" font-weight="400" fill="#AAA9A4" text-anchor="start">Chess.com / hrmayer</text>
+<text x="48" y="192" font-size="21" font-weight="400" fill="#F0EEE9" text-anchor="start">Let&#x27;s play a game.</text>
+<rect x="478" y="52" width="1" height="139" rx="0" fill="#303033" />
+<text x="525" y="79" font-size="17" font-weight="400" fill="#AAA9A4" text-anchor="start" letter-spacing="1">PUZZLE RUSH BEST</text>
+<text x="525" y="155" font-size="70" font-weight="600" fill="#CFAA80" text-anchor="start">30</text>
+<text x="525" y="192" font-size="16" font-weight="400" fill="#AAA9A4" text-anchor="start">Personal best / Chess.com</text>
+<rect x="900.0" y="25.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="921.0" y="25.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="942.0" y="25.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="963.0" y="25.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="984.0" y="25.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1005.0" y="25.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1026.0" y="25.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1047.0" y="25.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="900.0" y="46.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="921.0" y="46.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="942.0" y="46.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="963.0" y="46.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="984.0" y="46.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1005.0" y="46.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1026.0" y="46.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1047.0" y="46.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="900.0" y="67.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="921.0" y="67.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="942.0" y="67.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="963.0" y="67.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="984.0" y="67.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1005.0" y="67.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1026.0" y="67.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1047.0" y="67.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="900.0" y="88.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="921.0" y="88.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="942.0" y="88.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="963.0" y="88.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="984.0" y="88.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1005.0" y="88.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1026.0" y="88.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1047.0" y="88.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="900.0" y="109.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="921.0" y="109.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="942.0" y="109.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="963.0" y="109.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="984.0" y="109.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1005.0" y="109.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1026.0" y="109.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1047.0" y="109.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="900.0" y="130.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="921.0" y="130.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="942.0" y="130.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="963.0" y="130.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="984.0" y="130.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1005.0" y="130.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1026.0" y="130.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1047.0" y="130.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="900.0" y="151.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="921.0" y="151.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="942.0" y="151.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="963.0" y="151.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="984.0" y="151.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1005.0" y="151.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1026.0" y="151.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1047.0" y="151.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="900.0" y="172.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="921.0" y="172.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="942.0" y="172.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="963.0" y="172.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="984.0" y="172.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1005.0" y="172.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<rect x="1026.0" y="172.0" width="21.0" height="21.0" rx="0" fill="#242427" />
+<rect x="1047.0" y="172.0" width="21.0" height="21.0" rx="0" fill="#19191C" />
+<g transform="translate(921.0,151.0) scale(21.0)"><g class="knight"><path d="M.20 .76H.80V.88H.20ZM.29 .68L.36 .49L.23 .48L.18 .36L.36 .19L.47 .16L.48 .07L.59 .16L.66 .20C.77 .31 .78 .46 .72 .58L.73 .68ZM.34 .30L.31 .35L.37 .36L.39 .31Z" fill="#CFAA80" fill-rule="evenodd"/></g></g>
+<rect x="900" y="25" width="168" height="168" rx="0" fill="none" stroke="#303033" stroke-width="1"/>
+<text x="984" y="219" font-size="13" font-weight="400" fill="#AAA9A4" text-anchor="middle" letter-spacing="1">ILLUSTRATIVE BOARD</text>
+</svg>

@@ -1,10 +1,12 @@
 # Artwork and icon credits
 
-The banner, project card, badges and line icons are original artwork for Henrique Mayer's profile. Animations use SVG/CSS and honor `prefers-reduced-motion`; there are no scripts, trackers or remote rendering services.
+The flowing-line cover, capability strip, GitHub dashboard, chess card, earlier project card, badges and line icons are original artwork for Henrique Mayer's profile. Animations use SVG/CSS and honor `prefers-reduced-motion`; the images contain no scripts, trackers or remote rendering services.
+
+The dashboard and chess card are generated from public GitHub and Chess.com data. See [data sources and metric definitions](../docs/profile-data.md). The chessboard is an original illustration; its animated knight is not a live game.
 
 Brand glyphs for Python, Go, Django, HTMX, SQLite, Tailwind CSS, Databricks, MLflow, Docker, Kubernetes, Git, Jenkins, Dynatrace, Splunk and Markdown are from [Simple Icons 16.0.0](https://github.com/simple-icons/simple-icons/tree/16.0.0), distributed under [CC0 1.0](https://github.com/simple-icons/simple-icons/blob/16.0.0/LICENSE.md). Brand names and marks belong to their respective owners.
 
-Typography is converted to paths using [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1) and [DejaVu Sans Mono](https://dejavu-fonts.github.io/) (DejaVu/Bitstream license). Font files are not redistributed.
+The cover, capability strip and earlier artwork use typography converted to paths from [Inter](https://github.com/rsms/inter) (SIL Open Font License 1.1) and [DejaVu Sans Mono](https://dejavu-fonts.github.io/) (DejaVu/Bitstream license). The generated data cards use local sans-serif font fallbacks. Font files are not redistributed.
 
 The LinkedIn glyph is from Bootstrap Icons, under the following MIT license:
 
