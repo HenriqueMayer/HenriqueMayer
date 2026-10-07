@@ -1,15 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title description">
-<title id="title">Henrique Mayer / Off the keyboard</title><desc id="description">Henrique Mayer plays chess as hrmayer. Puzzle Rush personal best: 30, fetched on 2026-10-06 UTC. The animated knight follows legal L-shaped moves on an illustrative board; this is not a live game.</desc>
+<title id="title">Henrique Mayer / Off the keyboard</title><desc id="description">Henrique Mayer plays chess as hrmayer. Rapid category rating: 1304. Last rated rapid game: 2025-01-17 UTC, time control 10 min. Rapid rating is shared across rapid time controls, not exclusive to this game length. Puzzle Rush personal best: 30. Chess data fetched on 2026-10-07 UTC. The animated knight follows legal L-shaped moves on an illustrative board; this is not a live game.</desc>
 <style>text{font-family:Inter,Arial,sans-serif}.shine{animation:shine 8s ease-in-out infinite}.knight{animation:knight 12s ease-in-out infinite}@keyframes shine{0%,100%{opacity:.25}50%{opacity:.8}}@keyframes knight{0%,16%,100%{transform:translate(0,0)}25%,41%{transform:translate(2px,-1px)}50%,66%{transform:translate(1px,-3px)}75%,91%{transform:translate(-1px,-2px)}}@media(prefers-reduced-motion:reduce){.shine,.knight{animation:none}}</style>
 <rect x="1" y="1" width="1198" height="238" rx="24" fill="#F7F7F5" stroke="#DEDEE1"/>
 <text x="48" y="45" font-size="19" font-weight="400" fill="#5B5C60" text-anchor="start" letter-spacing="2">02 / OFF THE KEYBOARD</text>
 <text x="48" y="103" font-size="42" font-weight="500" fill="#202124" text-anchor="start">One more move.</text>
 <text x="48" y="139" font-size="21" font-weight="400" fill="#5B5C60" text-anchor="start">Chess.com / hrmayer</text>
 <text x="48" y="192" font-size="21" font-weight="400" fill="#202124" text-anchor="start">Let&#x27;s play a game.</text>
-<rect x="478" y="52" width="1" height="139" rx="0" fill="#DEDEE1" />
-<text x="525" y="79" font-size="17" font-weight="400" fill="#5B5C60" text-anchor="start" letter-spacing="1">PUZZLE RUSH BEST</text>
-<text x="525" y="155" font-size="70" font-weight="600" fill="#B88A59" text-anchor="start">30</text>
-<text x="525" y="192" font-size="16" font-weight="400" fill="#5B5C60" text-anchor="start">Personal best / Chess.com</text>
+<rect x="423" y="52" width="1" height="139" rx="0" fill="#DEDEE1" />
+<text x="460" y="75" font-size="17" font-weight="400" fill="#5B5C60" text-anchor="start" letter-spacing="1">RAPID RATING</text>
+<text x="460" y="141" font-size="62" font-weight="600" fill="#176B52" text-anchor="start">1304</text>
+<text x="460" y="171" font-size="16" font-weight="400" fill="#5B5C60" text-anchor="start">Last game / 10 min</text>
+<text x="460" y="194" font-size="15" font-weight="400" fill="#5B5C60" text-anchor="start">2025-01-17 UTC</text>
+<text x="690" y="75" font-size="17" font-weight="400" fill="#5B5C60" text-anchor="start" letter-spacing="0.5">PUZZLE RUSH BEST</text>
+<text x="690" y="141" font-size="62" font-weight="600" fill="#B88A59" text-anchor="start">30</text>
+<text x="690" y="178" font-size="15" font-weight="400" fill="#5B5C60" text-anchor="start">Personal best / Chess.com</text>
 <rect x="900.0" y="25.0" width="21.0" height="21.0" rx="0" fill="#FFFFFF" />
 <rect x="921.0" y="25.0" width="21.0" height="21.0" rx="0" fill="#ECECEE" />
 <rect x="942.0" y="25.0" width="21.0" height="21.0" rx="0" fill="#FFFFFF" />
