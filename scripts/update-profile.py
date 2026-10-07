@@ -93,6 +93,48 @@ def parse_calendar(body, first, last):
     return [days[key] for key in sorted(days)]
 
 
+def parse_chess(stats, games, archive_url, fetched_utc):
+    puzzle_best = stats["puzzle_rush"]["best"]["score"]
+    rapid = stats["chess_rapid"]["last"]
+    rating, timestamp = rapid["rating"], rapid["date"]
+    if any(type(value) is not int or value < 0 for value in (puzzle_best, rating, timestamp)):
+        raise ValueError("Invalid Chess.com Puzzle Rush best or rapid rating/date")
+    rated_rapid = [game for game in games if game.get("time_class") == "rapid"
+                   and game.get("rated") is True and game.get("rules") == "chess"
+                   and any(game.get(side, {}).get("username", "").lower() == CHESS_USERNAME
+                           for side in ("white", "black"))]
+    if not rated_rapid:
+        raise ValueError("The public archive contains no matching rated rapid game")
+    last_game = max(rated_rapid, key=lambda game: game["end_time"])
+    if type(last_game["end_time"]) is not int or abs(last_game["end_time"] - timestamp) > 60:
+        raise ValueError("Chess.com rapid statistics and game archive disagree; retry after their caches settle")
+    if not re.fullmatch(r"\d+(?:\+\d+)?", last_game["time_control"]):
+        raise ValueError("Unrecognized rapid time control")
+    ended = datetime.fromtimestamp(last_game["end_time"], timezone.utc)
+    return {
+        "username": CHESS_USERNAME,
+        "fetched_utc": fetched_utc,
+        "puzzle_rush_best": puzzle_best,
+        "rapid_rating": rating,
+        "rapid_last_game": {
+            "date": ended.date().isoformat(),
+            "ended_at_utc": ended.isoformat().replace("+00:00", "Z"),
+            "rating_updated_at_utc": datetime.fromtimestamp(timestamp, timezone.utc).isoformat().replace("+00:00", "Z"),
+            "time_control": last_game["time_control"],
+            "url": last_game["url"],
+            "archive": archive_url,
+        },
+    }
+
+
+def collect_chess():
+    stats = fetch(f"https://api.chess.com/pub/player/{CHESS_USERNAME}/stats")
+    rapid_date = datetime.fromtimestamp(stats["chess_rapid"]["last"]["date"], timezone.utc)
+    archive_url = f"https://api.chess.com/pub/player/{CHESS_USERNAME}/games/{rapid_date:%Y/%m}"
+    archive = fetch(archive_url)
+    return parse_chess(stats, archive["games"], archive_url, datetime.now(timezone.utc).date().isoformat())
+
+
 def collect(today):
     api = "https://api.github.com"
     user = fetch(f"{api}/users/{USERNAME}")
@@ -119,10 +161,7 @@ def collect(today):
     first = today - timedelta(days=364)
     calendar_url = f"https://github.com/users/{USERNAME}/contributions"
     days = parse_calendar(fetch(calendar_url, as_json=False), first, today)
-    chess = fetch(f"https://api.chess.com/pub/player/{CHESS_USERNAME}/stats")
-    puzzle_best = chess["puzzle_rush"]["best"]["score"]
-    if not isinstance(puzzle_best, int) or puzzle_best < 0:
-        raise ValueError("Invalid Chess.com Puzzle Rush personal best")
+    chess = collect_chess()
     return {
         "updated_utc": today.isoformat(),
         "username": USERNAME,
@@ -133,7 +172,7 @@ def collect(today):
         "code_repositories": sorted(repo["name"] for repo in code_repositories),
         "language_bytes": dict(sorted(languages.items(), key=lambda pair: (-pair[1], pair[0]))),
         "calendar": days,
-        "chess": {"username": CHESS_USERNAME, "puzzle_rush_best": puzzle_best},
+        "chess": chess,
         "sources": {"profile": f"{api}/users/{USERNAME}", "repositories": f"{api}/users/{USERNAME}/repos",
                     "calendar": calendar_url, "chess": f"https://api.chess.com/pub/player/{CHESS_USERNAME}/stats"},
     }
@@ -280,12 +319,16 @@ def chess_art(data, theme, *, mobile=False):
     p = PALETTES[theme]
     width, height = (720, 430) if mobile else (1200, 240)
     best = data["chess"]["puzzle_rush_best"]
+    rapid = data["chess"]["rapid_rating"]
+    last_game = data["chess"]["rapid_last_game"]
+    seconds, *increment = last_game["time_control"].split("+")
+    control = f"{int(seconds) / 60:g} min" + (f" + {int(increment[0])}s" if increment and int(increment[0]) else "")
     parts = [text(40 if mobile else 48, 53 if mobile else 45, "02 / OFF THE KEYBOARD", 25 if mobile else 19, p["muted"], spacing=2), text(40 if mobile else 48, 121 if mobile else 103, "One more move.", 46 if mobile else 42, p["ink"], weight=500), text(40 if mobile else 48, 159 if mobile else 139, "Chess.com / hrmayer", 25 if mobile else 21, p["muted"])]
     if mobile:
-        parts += [text(40, 235, "PUZZLE RUSH BEST", 23, p["muted"], spacing=1), text(40, 308, best, 68, p["copper"], weight=600), text(40, 361, "Let's play a game.", 24, p["ink"]), text(40, 401, "ILLUSTRATIVE BOARD", 18, p["muted"], spacing=1), chess_board(p, 434, 178, 232)]
+        parts += [text(40, 220, "RAPID", 22, p["muted"], spacing=1), text(40, 246, "RATING", 22, p["muted"], spacing=1), text(40, 307, rapid, 62, p["green"], weight=600), text(40, 336, f"Last game / {control}", 19, p["muted"]), text(40, 363, f"{last_game['date']} UTC", 18, p["muted"]), text(245, 220, "PUZZLE RUSH", 21, p["muted"], spacing=.5), text(245, 246, "BEST", 22, p["muted"], spacing=1), text(245, 307, best, 62, p["copper"], weight=600), text(245, 336, "Personal best", 19, p["muted"]), text(40, 395, "Let's play a game.", 22, p["ink"]), text(40, 417, "ILLUSTRATIVE BOARD", 16, p["muted"], spacing=1), chess_board(p, 434, 178, 232)]
     else:
-        parts += [text(48, 192, "Let's play a game.", 21, p["ink"]), rect(478, 52, 1, 139, p["line"]), text(525, 79, "PUZZLE RUSH BEST", 17, p["muted"], spacing=1), text(525, 155, best, 70, p["copper"], weight=600), text(525, 192, "Personal best / Chess.com", 16, p["muted"]), chess_board(p, 900, 25, 168), text(984, 219, "ILLUSTRATIVE BOARD", 13, p["muted"], anchor="middle", spacing=1)]
-    description = f"Henrique Mayer plays chess as hrmayer. Puzzle Rush personal best: {best}, fetched on {data['updated_utc']} UTC. The animated knight follows legal L-shaped moves on an illustrative board; this is not a live game."
+        parts += [text(48, 192, "Let's play a game.", 21, p["ink"]), rect(423, 52, 1, 139, p["line"]), text(460, 75, "RAPID RATING", 17, p["muted"], spacing=1), text(460, 141, rapid, 62, p["green"], weight=600), text(460, 171, f"Last game / {control}", 16, p["muted"]), text(460, 194, f"{last_game['date']} UTC", 15, p["muted"]), text(690, 75, "PUZZLE RUSH BEST", 17, p["muted"], spacing=.5), text(690, 141, best, 62, p["copper"], weight=600), text(690, 178, "Personal best / Chess.com", 15, p["muted"]), chess_board(p, 900, 25, 168), text(984, 219, "ILLUSTRATIVE BOARD", 13, p["muted"], anchor="middle", spacing=1)]
+    description = f"Henrique Mayer plays chess as hrmayer. Rapid category rating: {rapid}. Last rated rapid game: {last_game['date']} UTC, time control {control}. Rapid rating is shared across rapid time controls, not exclusive to this game length. Puzzle Rush personal best: {best}. Chess data fetched on {data['chess']['fetched_utc']} UTC. The animated knight follows legal L-shaped moves on an illustrative board; this is not a live game."
     return svg(width, height, p, "\n".join(parts), "Henrique Mayer / Off the keyboard", description)
 
 
