@@ -11,7 +11,9 @@
   </picture>
 </a>
 
-I build **AI agents, data workflows and software** that fit into how teams actually work. Currently at **Galapos (XP Inc.)**, studying **Data Science & AI at PUCRS**.
+Hey, Henrique here! I'm currently an **AI Engineer**.<br>
+I love **creating, thinking and solving problems**!<br>
+Pursuing a **Data Science & AI degree** at [**PUCRS**](https://www.pucrs.br/technology/curso/data-science-and-artificial-intelligence/).
 
 <p>
   <a href="https://henriquemayer.com/en/"><img src="assets/link-portfolio.svg" height="38" alt="Explore my portfolio"></a>
@@ -21,17 +23,15 @@ I build **AI agents, data workflows and software** that fit into how teams actua
 <a href="https://henriquemayer.com/en/services/#gh-light-mode-only">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/stack-light-mobile.svg">
-    <img src="assets/stack-light.svg" width="1200" alt="Build with Python, Django, SQL and Go. Model with AI agents, Databricks and MLflow. Ship with AWS, Docker and Kubernetes.">
+    <img src="assets/stack-light.svg" width="1200" alt="Build with Python, Django, SQL, Astro, Node.js, TypeScript and Tailwind. Model with AI agents, Databricks and MLflow. Ship with AWS, Docker, Kubernetes and Cloudflare Workers.">
   </picture>
 </a>
 <a href="https://henriquemayer.com/en/services/#gh-dark-mode-only">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/stack-dark-mobile.svg">
-    <img src="assets/stack-dark.svg" width="1200" alt="Build with Python, Django, SQL and Go. Model with AI agents, Databricks and MLflow. Ship with AWS, Docker and Kubernetes.">
+    <img src="assets/stack-dark.svg" width="1200" alt="Build with Python, Django, SQL, Astro, Node.js, TypeScript and Tailwind. Model with AI agents, Databricks and MLflow. Ship with AWS, Docker, Kubernetes and Cloudflare Workers.">
   </picture>
 </a>
-
-Built in public: [**TuxedoFinance ↗**](https://github.com/HenriqueMayer/TuxedoFinance) — local-first personal finance, built with Django and HTMX.
 
 <a href="https://github.com/HenriqueMayer#gh-light-mode-only">
   <picture>
@@ -51,13 +51,13 @@ Built in public: [**TuxedoFinance ↗**](https://github.com/HenriqueMayer/Tuxedo
 <a href="https://www.chess.com/member/hrmayer#gh-light-mode-only">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/chess-light-mobile.svg">
-    <img src="assets/chess-light.svg" width="1200" alt="Off the keyboard: one more move. Chess.com hrmayer, Puzzle Rush personal best, and an illustrative animated knight. Play a game with me.">
+    <img src="assets/chess-light.svg" width="1200" alt="Off the keyboard: one more move. Chess.com hrmayer, rapid rating with the last game's date and time control, Puzzle Rush personal best, and an illustrative animated knight. Play a game with me.">
   </picture>
 </a>
 <a href="https://www.chess.com/member/hrmayer#gh-dark-mode-only">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/chess-dark-mobile.svg">
-    <img src="assets/chess-dark.svg" width="1200" alt="Off the keyboard: one more move. Chess.com hrmayer, Puzzle Rush personal best, and an illustrative animated knight. Play a game with me.">
+    <img src="assets/chess-dark.svg" width="1200" alt="Off the keyboard: one more move. Chess.com hrmayer, rapid rating with the last game's date and time control, Puzzle Rush personal best, and an illustrative animated knight. Play a game with me.">
   </picture>
 </a>
 
