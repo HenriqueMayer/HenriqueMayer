@@ -11,10 +11,6 @@
   </picture>
 </a>
 
-- Hey, Henrique here! I'm currently an **AI Engineer**.<br>
-- I love **creating, thinking and solving problems**!<br>
-- Pursuing a **Data Science & AI degree** at [**PUCRS**](https://www.pucrs.br/technology/curso/data-science-and-artificial-intelligence/).
-
 <p>
   <a href="https://henriquemayer.com/en/"><img src="assets/link-portfolio.svg" height="38" alt="Explore my portfolio"></a>
   <a href="https://www.linkedin.com/in/henrique-ramos-mayer-7897911b2/"><img src="assets/link-linkedin.svg" height="38" alt="Connect on LinkedIn"></a>
