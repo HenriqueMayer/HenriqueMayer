@@ -1,13 +1,13 @@
 <a href="https://henriquemayer.com/en/#gh-light-mode-only">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/cover-light-mobile.svg">
-    <img src="assets/cover-light.svg" width="1200" alt="Henrique Mayer — Engineering useful AI. AI Engineer at Galapos (XP Inc.). Data Science and AI student at PUCRS.">
+    <img src="assets/cover-light.svg" width="1200" alt="Henrique Mayer — AI Engineering, Data and Software. Explore my portfolio.">
   </picture>
 </a>
 <a href="https://henriquemayer.com/en/#gh-dark-mode-only">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/cover-dark-mobile.svg">
-    <img src="assets/cover-dark.svg" width="1200" alt="Henrique Mayer — Engineering useful AI. AI Engineer at Galapos (XP Inc.). Data Science and AI student at PUCRS.">
+    <img src="assets/cover-dark.svg" width="1200" alt="Henrique Mayer — AI Engineering, Data and Software. Explore my portfolio.">
   </picture>
 </a>
 
