@@ -1,34 +1,31 @@
 {
-  "updated_utc": "2026-11-10",
+  "updated_utc": "2026-11-11",
   "username": "HenriqueMayer",
   "contribution_period": {
-    "from": "2025-11-11",
-    "to": "2026-11-10",
+    "from": "2025-11-12",
+    "to": "2026-11-11",
     "days": 365
   },
-  "visible_contributions": 813,
-  "active_days": 145,
+  "visible_contributions": 847,
+  "active_days": 146,
   "public_repositories": 3,
   "code_repositories": [
     "PUCRS-operating-systems",
     "TuxedoFinance"
   ],
   "language_bytes": {
-    "Python": 2713252,
-    "JavaScript": 1795026,
-    "HTML": 639516,
-    "CSS": 185376,
+    "Python": 1160036,
+    "TypeScript": 673255,
+    "CSS": 26862,
     "C": 13795,
-    "Shell": 3795,
-    "Dockerfile": 1604,
-    "Makefile": 799
+    "Astro": 5612,
+    "JavaScript": 2000,
+    "Dockerfile": 1828,
+    "Shell": 1767,
+    "Makefile": 799,
+    "HTML": 576
   },
   "calendar": [
-    {
-      "date": "2025-11-11",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-11-12",
       "count": 0,
@@ -862,7 +859,7 @@
     {
       "date": "2026-04-27",
       "count": 5,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-04-28",
@@ -1047,7 +1044,7 @@
     {
       "date": "2026-06-03",
       "count": 5,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-06-04",
@@ -1197,7 +1194,7 @@
     {
       "date": "2026-07-03",
       "count": 10,
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-07-04",
@@ -1237,7 +1234,7 @@
     {
       "date": "2026-07-11",
       "count": 5,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-07-12",
@@ -1332,7 +1329,7 @@
     {
       "date": "2026-07-30",
       "count": 15,
-      "level": 4
+      "level": 3
     },
     {
       "date": "2026-07-31",
@@ -1347,7 +1344,7 @@
     {
       "date": "2026-08-02",
       "count": 10,
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-08-03",
@@ -1357,7 +1354,7 @@
     {
       "date": "2026-08-04",
       "count": 10,
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-08-05",
@@ -1372,12 +1369,12 @@
     {
       "date": "2026-08-07",
       "count": 10,
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-08-08",
       "count": 5,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-08-09",
@@ -1412,7 +1409,7 @@
     {
       "date": "2026-08-15",
       "count": 10,
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-08-16",
@@ -1517,7 +1514,7 @@
     {
       "date": "2026-09-05",
       "count": 5,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-09-06",
@@ -1532,7 +1529,7 @@
     {
       "date": "2026-09-08",
       "count": 5,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-09-09",
@@ -1577,7 +1574,7 @@
     {
       "date": "2026-09-17",
       "count": 10,
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-09-18",
@@ -1592,12 +1589,12 @@
     {
       "date": "2026-09-20",
       "count": 10,
-      "level": 3
+      "level": 2
     },
     {
       "date": "2026-09-21",
       "count": 5,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-09-22",
@@ -1607,7 +1604,7 @@
     {
       "date": "2026-09-23",
       "count": 5,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-09-24",
@@ -1627,7 +1624,7 @@
     {
       "date": "2026-09-27",
       "count": 15,
-      "level": 4
+      "level": 3
     },
     {
       "date": "2026-09-28",
@@ -1687,7 +1684,7 @@
     {
       "date": "2026-10-09",
       "count": 15,
-      "level": 4
+      "level": 3
     },
     {
       "date": "2026-10-10",
@@ -1712,7 +1709,7 @@
     {
       "date": "2026-10-14",
       "count": 5,
-      "level": 2
+      "level": 1
     },
     {
       "date": "2026-10-15",
@@ -1747,7 +1744,7 @@
     {
       "date": "2026-10-21",
       "count": 15,
-      "level": 4
+      "level": 3
     },
     {
       "date": "2026-10-22",
@@ -1846,13 +1843,18 @@
     },
     {
       "date": "2026-11-10",
-      "count": 1,
-      "level": 1
+      "count": 21,
+      "level": 4
+    },
+    {
+      "date": "2026-11-11",
+      "count": 14,
+      "level": 3
     }
   ],
   "chess": {
     "username": "hrmayer",
-    "fetched_utc": "2026-11-10",
+    "fetched_utc": "2026-11-11",
     "puzzle_rush_best": 30,
     "rapid_rating": 1304,
     "rapid_last_game": {
